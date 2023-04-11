@@ -12,7 +12,7 @@ describe TEXT
 ''') #crud
 
 # cursor.execute('''
-# INSERT INTO catagory(name, describe) VALUES("LAPTOPS", "Найлучшие ноутбуки!")
+# INSERT INTO catagory(name, describe) VALUES("CONSOLE & PC GAMES", "Найлучшие игры для консолей и ПК!")
 # ''')
 connect.commit()
 cursor.execute('SELECT * FROM catagory')
